@@ -21,10 +21,14 @@ Chatura is a character-driven chat app designed to provide supportive, friendly,
 
 - App Store: (link coming soon)
 
-## Support
+## What’s New
 
-Email: chaturaapp@gmail.com
+- [What’s New](/whats-new/)
 
 ## Legal
 
 - [Privacy Policy](/privacy/)
+
+## Support
+
+Email: chaturaapp@gmail.com
