@@ -28,6 +28,7 @@ Chatura is a character-driven chat app designed to provide supportive, friendly,
 ## Legal
 
 - [Privacy Policy](/privacy/)
+- [Terms of Service](/terms-of-service/)
 
 ## Support
 
