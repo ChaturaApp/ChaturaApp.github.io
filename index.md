@@ -147,7 +147,7 @@ You can delete conversations anytime and export your chat data.
 
 ## Support
 
-Email: chaturaapp@gmail.com
+- [Support & Contact](/support/)
 
 ---
 
