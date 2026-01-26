@@ -140,14 +140,14 @@ You can delete conversations anytime and export your chat data.
 
 ## Legal
 
-- [Privacy Policy](/privacy/)
+- [Privacy Policy](/privacy-policy/)
 - [Terms of Service](/terms-of-service/)
 
 ---
 
 ## Support
 
-- [Support & Contact](/support/)
+- [Support](/support/)
 
 ---
 
