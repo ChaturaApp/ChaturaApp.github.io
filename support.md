@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Support & Contact
+title: Support
 permalink: /support/
 ---
 
