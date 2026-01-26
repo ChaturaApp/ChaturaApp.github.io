@@ -5,8 +5,6 @@ permalink: /terms-of-service/
 ---
 
 # Chatura Terms of Service
-
-
 These Terms of Service ("**Terms**") govern your use of the Chatura iOS application and related services (collectively, the "**Service**"). If you do not agree to these Terms, do not use the Service.
 
 "Chatura," "we," "us," or "our" refers to the operator of the Service.
@@ -36,6 +34,10 @@ Chatura provides AI character chat and may offer additional AI-generated feature
 We may modify, suspend, or discontinue all or part of the Service at any time, including for maintenance, updates, or operational reasons.
 
 For details on data handling and retention, please review our Privacy Policy.
+
+We do not use your content or technical diagnostics for advertising or cross-app tracking.
+
+You can withdraw consent for AI generation processing/transmission by not using AI generation features. For information on deleting on-device data and requesting deletion of any retained backend metadata logs (if any), see the Privacy Policy.
 
 ---
 
@@ -215,4 +217,4 @@ We may update these Terms from time to time. If we make material changes, we may
 
 If you have questions about these Terms, contact us at:
 
-**Email:** privacy@chatura.app
+**Email:** chaturaapp@gmail.com
