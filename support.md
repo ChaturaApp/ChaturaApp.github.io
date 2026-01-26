@@ -4,7 +4,7 @@ title: Support
 permalink: /support/
 ---
 
-# Support & Contact
+# Support
 
 If you need help with Chatura, please contact us:
 
