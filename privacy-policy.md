@@ -5,8 +5,6 @@ permalink: /privacy/
 ---
 
 # Chatura Privacy Policy
-
-
 Chatura ("**Chatura**," "**we**," "**us**," or "**our**") is an iOS app that provides AI character chat for warm, supportive companionship. This Privacy Policy explains what information is stored on your device, what information may be transmitted to generate AI outputs, and what limited technical metadata our servers may record for reliability.
 
 ---
@@ -31,6 +29,8 @@ Chatura stores the following **only on your device**:
 
 Chatura does **not** provide cloud sync. If you switch devices, your local data does not automatically transfer through Chatura.
 
+Your device backup settings (for example, iCloud backup) may include app data depending on your iOS settings. Chatura itself does not provide a separate cloud sync feature.
+
 ---
 
 ## 3) What leaves your device (and why)
@@ -52,7 +52,7 @@ We use this transmitted context only to generate the output you requested and to
 
 ### B) Technical metadata for reliability and diagnostics
 
-Our backend records limited **metadata logs** for reliability and troubleshooting, such as:
+Our backend may record limited **metadata logs** for reliability and troubleshooting, such as:
 
 - timestamps
 - status codes
@@ -60,6 +60,10 @@ Our backend records limited **metadata logs** for reliability and troubleshootin
 - request size / token count (or similar request volume measures)
 
 **We do not log the text content of your chats or prompts** in our backend logs.
+
+**Retention:** We keep these metadata logs only when needed to investigate reliability issues and, if retained, for **no more than 3 days**.
+
+**Standard network data:** When requests reach our backend and third-party providers, standard connection information (for example, IP address and user-agent) may be processed by the relevant infrastructure and AI/generation providers for security, abuse prevention, and reliability. We do not use this information to identify you or for tracking.
 
 ---
 
@@ -83,6 +87,8 @@ For operational reliability, **metadata logs** (for example, timestamps, status 
 
 We do not send chat content to this logging destination.
 
+If metadata logs are forwarded to a logging platform, they are forwarded only when needed for reliability investigations and are retained for **no more than 3 days**.
+
 ---
 
 ## 5) How we use information
@@ -103,11 +109,23 @@ We do not use your information for advertising or marketing, and we do not track
 ### B) Our backend systems
 
 - We do **not** store your chat content on our backend.
-- We retain only the limited **metadata logs** described in Section 3(B). These logs do not include your chat text.
+- We may retain only the limited **metadata logs** described in Section 3(B). These logs do not include your chat text.
+- **Metadata log retention:** We keep metadata logs only when needed to investigate reliability issues and, if retained, for **no more than 3 days**.
+- **Network request logs:** Standard connection metadata (for example, IP address and user-agent) may be processed as part of operating the Service (security and reliability). We do not use it for tracking. To the extent such data is retained in our backend logs for reliability investigations, it follows the same **no more than 3 days** retention window.
 
 ### C) Third parties
 
 Third-party services (for example, AI/generation service providers) may process content transmitted to generate outputs. Their retention practices are governed by their own policies, which we cannot control. If you would like the current list of third-party providers used by Chatura and links to their policies, please contact us using the details in the Contact section.
+
+### D) Withdrawing consent and requesting deletion
+
+**A) Delete on-device data.** Your chats and preferences are stored locally on your device. You can remove local data by using any available in-app deletion options (if provided) and/or uninstalling the app, which generally removes app-stored local data from the device.
+
+**B) Withdraw consent for AI processing/transmission.** If you do not want your messages and conversation context to be transmitted off-device for AI generation, do not use AI generation features. Because AI generation requires sending context to our backend and third-party AI/generation providers, withdrawing consent for this processing means stopping use of those AI generation features.
+
+**C) Request deletion of backend metadata logs (if any).** We do not store chat content on our backend. If you would like to request deletion of any retained metadata logs (as described in Section 3(B)), contact us at **chaturaapp@gmail.com** with (i) the approximate time window of the issue and (ii) any relevant details that help us locate the applicable logs. We will delete applicable retained logs to the extent we are able to identify them.
+
+**D) Third-party providers.** Third-party AI/generation providers may process content transmitted to generate outputs under their own policies. We do not control their retention or deletion practices. You may contact us to obtain the current list of providers and links to their policies so you can review their options and submit any deletion request to the provider(s) directly.
 
 ---
 
@@ -121,4 +139,4 @@ Chatura is **not intended for individuals under 18**, and we do not knowingly co
 
 If you have questions or requests related to privacy, please contact us at:
 
-**Email:** privacy@chatura.app
+**Email:** chaturaapp@gmail.com
