@@ -13,9 +13,20 @@ Chatura is a character-led AI companion where gentle daily chats feel continuous
 
 [Download on the App Store](#download)
 
-<div class="product-preview" aria-hidden="true">
+<div class="product-preview">
   <div class="product-preview__icon" data-label="App icon"></div>
-  <div class="product-preview__shot" data-label="Product screenshot"></div>
+  <div class="product-preview__shot">
+    <div class="product-preview__shot-track" aria-label="Chatura app screenshots">
+      <img src="/assets/AppStoreScreenshot/Screenshot1.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot2.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot3.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot4.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot5.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot6.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot7.png" alt="Chatura app screenshot">
+      <img src="/assets/AppStoreScreenshot/Screenshot8.png" alt="Chatura app screenshot">
+    </div>
+  </div>
 </div>
 
 **No ads.** · **Delete conversations anytime.** · **Export your chat data.**  
@@ -193,6 +204,11 @@ Start with one warm, steady core character. Subscribe to unlock all six characte
 <div class="links-group" markdown="1">
 ## Support
 - [Support](/support/)
+</div>
+
+<div class="links-group" markdown="1">
+## X
+- [@ChaturaApp](https://x.com/ChaturaApp)
 </div>
 </div>
 </section>
