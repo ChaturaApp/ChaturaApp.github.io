@@ -114,6 +114,17 @@ Start with one warm, steady core character. Subscribe to unlock all six characte
 
 ---
 
+## Download
+<div id="download" class="download-panel">
+  <div class="download-panel__art" aria-hidden="true"></div>
+  <div class="download-panel__content">
+    <strong>App Store link coming soon.</strong>
+    <p>Chatura is currently under review with Apple. We'll publish the App Store link here as soon as it's approved.</p>
+  </div>
+</div>
+
+---
+
 ## What’s New
 
 - [What’s New](/whats-new/)
