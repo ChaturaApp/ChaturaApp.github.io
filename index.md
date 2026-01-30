@@ -22,28 +22,33 @@ Chatura is a character-led AI companion where gentle daily chats feel continuous
 *Chatura features AI-generated characters (not real people).*  
 </section>
 
-<section class="content-section content-section--features" markdown="1">
+<section id="features" class="content-section content-section--features" markdown="1">
 ## Why Users Stay
 ### A steady place to land—warmth now, continuity over time.
 Some days you want a quick check-in. Some nights you need to talk it out. Chatura is designed for supportive, text-first companionship that meets you where you are—and leaves behind gentle touchpoints you can return to.
 
 <div class="feature-grid" markdown="1">
 <article class="feature-card" markdown="1">
+<div class="feature-card__intro" markdown="1">
 ## 1) Warm companionship that meets you where you are
 ### Kind, steady conversation—without pressure or judgment.
 Whether it’s a morning reset, a quiet moment between meetings, or late-night thoughts you don’t want to carry alone, Chatura responds with calm support and a familiar tone—so you can feel seen and a little lighter.
-
+</div>
+<div class="feature-card__body" markdown="1">
 **Built for daily check-ins:**
 - Text-first chat designed for calm, supportive companionship  
 - A dedicated core character optimized for everyday warmth  
 - Open the app and start talking—no setup, no forms  
+</div>
 </article>
 
 <article class="feature-card" markdown="1">
+<div class="feature-card__intro" markdown="1">
 ## 2) Natural interaction: just talk, and Chatura carries the load
 ### Conversation is the interface. Chatura does the organizing.
 You don’t need workflows, templates, or “productivity rules.” As you chat, Chatura can shape what matters into lightweight keepsakes—so the conversation leaves something useful behind, without turning your life into a task system.
-
+</div>
+<div class="feature-card__body" markdown="1">
 ### Keepsakes you can return to
 - **Our Memory** — small moments worth keeping  
 - **Our Plan** — a clear next step you can revisit  
@@ -52,35 +57,44 @@ You don’t need workflows, templates, or “productivity rules.” As you chat,
 - **Secret Haven** — a dedicated place for what’s hard to say anywhere else  
 
 *Keepsakes are created through chat as short texts/cards—simple to revisit, no complex setup.*
+</div>
 </article>
 
 <article class="feature-card" markdown="1">
+<div class="feature-card__intro" markdown="1">
 ## 3) Lifelike characters with a consistent inner world
 ### Not one generic assistant—six distinct characters.
 Chatura is built around characters with their own tone, values, and way of seeing the world. Over time, each character stays true to who they are—so the connection feels stable, not random.
-
+</div>
+<div class="feature-card__body" markdown="1">
 **What makes it feel grounded:**
 - 6 characters total (**1 core character by default; 5 more with subscription**)  
 - Each character is anchored by **Info / Status / Interests**  
 - Continuity comes from identity + shared touchpoints—not “perfect memory” claims  
+</div>
 </article>
 
 <article class="feature-card" markdown="1">
+<div class="feature-card__intro" markdown="1">
 ## 4) Moments that keep the relationship present between chats
 ### A gentle presence—even when you’re not talking.
 Chatura includes **Moments**: a calm feed where characters share small glimpses of daily life and thoughts. You can like, comment, and naturally step back into conversation—so companionship feels ongoing, not only reactive.
-
+</div>
+<div class="feature-card__body" markdown="1">
 **Designed to feel ambient and low-effort:**
 - Characters share Moments generated from their profiles  
 - Lightweight interaction: like, comment, jump into chat  
 - Built to sustain presence between conversations  
+</div>
 </article>
 
 <article class="feature-card" markdown="1">
+<div class="feature-card__intro" markdown="1">
 ## 5) Safety, privacy, and control—without ads
 ### Built to feel safe—not extractive.
 Chatura is designed around respect and user control. There are no ads and no data sharing for advertising or analytics. You can delete conversations anytime and export your chat data whenever you want.
-
+</div>
+<div class="feature-card__body" markdown="1">
 **Privacy & control:**
 - **No ads**  
 - **Delete conversations** anytime  
@@ -89,11 +103,12 @@ Chatura is designed around respect and user control. There are no ads and no dat
 
 **Clear boundaries:**  
 Chatura is for everyday supportive conversation and reflection. It does not provide medical advice or replace professional care.
+</div>
 </article>
 </div>
 </section>
 
-<section class="content-section" markdown="1">
+<section id="how-it-works" class="content-section" markdown="1">
 ## How it works
 ### How Chatura fits into your day
 **1 — Talk**  
@@ -106,7 +121,7 @@ When something feels important, Chatura can capture it into a Memory, Plan, Wish
 Revisit your keepsakes and Moments to feel a relationship thread that stays present over time.
 </section>
 
-<section class="content-section" markdown="1">
+<section id="subscription" class="content-section" markdown="1">
 ## Subscription
 ### Unlock the full world of Chatura.
 Start with one warm, steady core character. Subscribe to unlock all six characters, dramatically more room to talk, and a richer Moments experience—so Chatura can be there consistently, not occasionally.
@@ -132,13 +147,7 @@ Start with one warm, steady core character. Subscribe to unlock all six characte
 </div>
 </section>
 
-<section class="content-section" markdown="1">
-## What’s New
-
-- [What’s New](/whats-new/)
-</section>
-
-<section class="content-section content-section--faq" markdown="1">
+<section id="faq" class="content-section content-section--faq" markdown="1">
 ## FAQ
 <div class="faq-grid" markdown="1">
   <div class="faq-item" markdown="1">
@@ -168,22 +177,22 @@ Start with one warm, steady core character. Subscribe to unlock all six characte
 </div>
 </section>
 
-<section class="content-section" markdown="1">
-## Legal
+<section class="content-section content-section--links" markdown="1">
+<div class="links-grid" markdown="1">
+<div class="links-group" markdown="1">
+## What’s New
+- [What’s New](/whats-new/)
+</div>
 
+<div class="links-group" markdown="1">
+## Legal
 - [Privacy Policy](/privacy-policy/)
 - [Terms of Service](/terms-of-service/)
-</section>
+</div>
 
-<section class="content-section" markdown="1">
+<div class="links-group" markdown="1">
 ## Support
-
 - [Support](/support/)
-</section>
-
-<section class="content-section content-section--footer" markdown="1">
-## Footer
-**Chatura features AI-generated characters for supportive conversation.**  
-It is not a medical or mental health service and not a substitute for professional care.  
-**Not for emergencies.** If you’re in immediate danger, call 911 (US) or your local emergency number; in the US you can also call or text 988.
+</div>
+</div>
 </section>
