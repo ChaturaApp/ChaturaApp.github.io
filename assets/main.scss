@@ -6,23 +6,23 @@
 
 :root {
   color-scheme: light;
-  --chatura-ink: #101512;
-  --chatura-muted: #3e4842;
-  --chatura-accent: #2f5b50;
-  --chatura-accent-deep: #19372f;
-  --chatura-accent-warm: #8f6a43;
-  --chatura-accent-rgb: 47, 91, 80;
-  --chatura-accent-deep-rgb: 25, 55, 47;
-  --chatura-accent-warm-rgb: 143, 106, 67;
-  --chatura-surface: #f3efe6;
-  --chatura-surface-soft: #e7e0d5;
-  --chatura-border: #b7ab9a;
-  --chatura-shadow: 0 32px 70px rgba(12, 16, 14, 0.18);
+  --chatura-ink: #0c1214;
+  --chatura-muted: #3d4a4b;
+  --chatura-accent: #2f6473;
+  --chatura-accent-deep: #1b3d47;
+  --chatura-accent-warm: #b6803f;
+  --chatura-accent-rgb: 47, 100, 115;
+  --chatura-accent-deep-rgb: 27, 61, 71;
+  --chatura-accent-warm-rgb: 182, 128, 63;
+  --chatura-surface: #f2f0ea;
+  --chatura-surface-soft: #e6e2d8;
+  --chatura-border: #b8b2a6;
+  --chatura-shadow: 0 32px 70px rgba(10, 14, 16, 0.18);
   --chatura-glow: 0 18px 42px rgba(var(--chatura-accent-rgb), 0.28);
-  --chatura-section: linear-gradient(140deg, rgba(var(--chatura-accent-rgb), 0.16), rgba(243, 239, 230, 0.98));
-  --chatura-card-shadow: 0 22px 52px rgba(12, 16, 14, 0.12);
-  --chatura-ornament: rgba(var(--chatura-accent-rgb), 0.26);
-  --chatura-ornament-warm: rgba(var(--chatura-accent-warm-rgb), 0.24);
+  --chatura-section: linear-gradient(140deg, rgba(var(--chatura-accent-rgb), 0.16), rgba(242, 240, 234, 0.98));
+  --chatura-card-shadow: 0 22px 52px rgba(10, 14, 16, 0.12);
+  --chatura-ornament: rgba(var(--chatura-accent-rgb), 0.24);
+  --chatura-ornament-warm: rgba(var(--chatura-accent-warm-rgb), 0.22);
   --chatura-section-gap: 7.6rem;
 }
 
@@ -34,7 +34,7 @@ body {
   margin: 0;
   font-family: "Manrope", "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--chatura-ink);
-  background: radial-gradient(circle at 18% -12%, #d4cec1 0%, #efe9de 46%, #ffffff 100%);
+  background: radial-gradient(circle at 18% -12%, #d6ded9 0%, #eef1ee 46%, #ffffff 100%);
   line-height: 1.7;
   min-height: 100vh;
   position: relative;
@@ -57,8 +57,8 @@ body::after {
   position: fixed;
   inset: 0;
   background-image:
-    radial-gradient(rgba(var(--chatura-accent-deep-rgb), 0.14) 1px, transparent 1px),
-    radial-gradient(rgba(var(--chatura-accent-warm-rgb), 0.1) 1px, transparent 1px);
+    radial-gradient(rgba(var(--chatura-accent-deep-rgb), 0.12) 1px, transparent 1px),
+    radial-gradient(rgba(var(--chatura-accent-warm-rgb), 0.08) 1px, transparent 1px);
   background-size: 120px 120px, 60px 60px;
   background-position: 10px 20px, 40px 70px;
   opacity: 0.14;
@@ -391,7 +391,7 @@ a:focus-visible {
   gap: 0.5rem;
   padding: 0.85rem 1.5rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--chatura-accent) 0%, var(--chatura-accent-deep) 65%, #12241e 100%);
+  background: linear-gradient(135deg, var(--chatura-accent) 0%, var(--chatura-accent-deep) 65%, #0e222b 100%);
   color: #ffffff;
   font-weight: 600;
   box-shadow: var(--chatura-glow);
@@ -713,7 +713,7 @@ h3 {
   flex: 1;
   min-height: 480px;
   padding: 1.4rem 1.6rem;
-  background: linear-gradient(120deg, rgba(var(--chatura-accent-rgb), 0.14), rgba(243, 239, 230, 0.94));
+  background: linear-gradient(120deg, rgba(var(--chatura-accent-rgb), 0.14), rgba(242, 240, 234, 0.94));
   display: flex;
   align-items: center;
 }
