@@ -153,7 +153,15 @@ Start with one warm, steady core character. Subscribe to unlock all six characte
   <div class="download-panel__art" aria-hidden="true"></div>
   <div class="download-panel__content">
     <strong>Get Chatura on the App Store.</strong>
-    <p><a class="download-panel__link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a></p>
+    <p class="download-panel__copy">A warm companion you’ll actually come back to.</p>
+    <div class="download-panel__meta">
+      <span>No ads</span>
+      <span>Delete conversations anytime</span>
+      <span>Export chat data</span>
+    </div>
+  </div>
+  <div class="download-panel__cta">
+    <a class="download-panel__link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
   </div>
 </div>
 </section>
