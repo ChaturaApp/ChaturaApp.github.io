@@ -695,17 +695,34 @@ h3 {
 
 .download-panel {
   display: flex;
-  gap: 1.75rem;
+  gap: 2rem;
   align-items: center;
-  padding: 1.75rem 2rem;
-  border-radius: 22px;
-  background: linear-gradient(135deg, rgba(var(--chatura-accent-rgb), 0.16), rgba(var(--chatura-accent-warm-rgb), 0.1));
-  border: 1px solid rgba(var(--chatura-accent-rgb), 0.22);
-  box-shadow: 0 18px 45px rgba(18, 22, 20, 0.08);
+  padding: 2rem 2.4rem;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--chatura-accent-rgb), 0.18) 0%,
+    rgba(var(--chatura-accent-warm-rgb), 0.08) 55%,
+    rgba(255, 255, 255, 0.94) 100%
+  );
+  border: 1px solid rgba(var(--chatura-accent-rgb), 0.25);
+  box-shadow: 0 24px 60px rgba(18, 22, 20, 0.1);
   animation: panel-fade-in 0.9s ease-out 0.15s both;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   overflow: hidden;
+}
+
+.download-panel::before {
+  content: "";
+  position: absolute;
+  inset: auto -18% -40% auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(var(--chatura-accent-deep-rgb), 0.18), transparent 70%);
+  opacity: 0.75;
+  pointer-events: none;
 }
 
 .download-panel::after {
@@ -720,30 +737,90 @@ h3 {
   pointer-events: none;
 }
 
+.download-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
 .download-panel:hover {
   transform: translateY(-3px);
-  box-shadow: 0 22px 50px rgba(18, 22, 20, 0.12);
+  box-shadow: 0 28px 70px rgba(18, 22, 20, 0.14);
 }
 
 .download-panel__art {
   width: 72px;
   height: 72px;
   border-radius: 18px;
-  background: #ffffff url("/assets/Logo.png") center/70% no-repeat;
+  background:
+    url("/assets/Logo.png") center/70% no-repeat,
+    linear-gradient(135deg, #ffffff 0%, #f2eee4 100%);
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.25);
   box-shadow: 0 18px 35px rgba(var(--chatura-accent-deep-rgb), 0.24);
   flex-shrink: 0;
 }
 
+.download-panel__content {
+  flex: 1;
+  min-width: 0;
+}
+
 .download-panel__content strong {
   display: block;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   margin-bottom: 0.35rem;
 }
 
-.download-panel__content p {
-  margin: 0;
+.download-panel__copy {
+  margin: 0.35rem 0 0.9rem;
   color: var(--chatura-muted);
+  max-width: 34rem;
+}
+
+.download-panel__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.6rem;
+  margin: 0;
+}
+
+.download-panel__meta span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(var(--chatura-accent-rgb), 0.12);
+  color: var(--chatura-accent-deep);
+  border: 1px solid rgba(var(--chatura-accent-rgb), 0.18);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.download-panel__cta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.download-panel__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--chatura-accent) 0%, var(--chatura-accent-deep) 65%, var(--chatura-ink) 100%);
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: var(--chatura-glow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.download-panel__link:hover,
+.download-panel__link:focus-visible {
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 22px 36px rgba(var(--chatura-accent-deep-rgb), 0.32);
 }
 
 .product-preview {
@@ -1197,6 +1274,16 @@ h3 {
     align-items: flex-start;
   }
 
+  .download-panel__cta {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .download-panel__link {
+    width: 100%;
+    justify-content: center;
+  }
+
   .product-preview {
     flex-direction: column;
     align-items: stretch;
@@ -1350,8 +1437,13 @@ h3 {
   }
 
   .download-panel {
-    padding: 1.4rem 1.5rem;
+    padding: 1.5rem 1.6rem;
     border-radius: 18px;
+    gap: 1.4rem;
+  }
+
+  .download-panel__meta span {
+    font-size: 0.8rem;
   }
 
   .links-grid {
