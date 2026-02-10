@@ -6,6 +6,17 @@ permalink: /whats-new/
 
 # What’s New
 
+## Version 1.0.1 — Smoother performance, more consistent character
+
+This update focuses on the quiet details that make a companion feel consistent and comforting.
+
+### What’s improved in 1.0.1
+
+- **More consistent character presence**: we refined the underlying logic so your companion’s attributes stay more **coherent**, **rich**, and true to their tone over time.
+- **Smoother everyday experience**: small product and interaction improvements to make chatting feel lighter, faster, and more reliable.
+
+Thank you for being here — we’re polishing Chatura with care, so each conversation feels a bit more natural and reassuring.
+
 ## Version 1.0.0 — Welcome to Chatura
 
 **Chatura: Where Cura Meets Chat.**
