@@ -6,6 +6,17 @@ permalink: /whats-new/
 
 # What’s New
 
+## Version 1.0.2 — A steadier, smoother experience
+
+This update focuses on bug fixes and the small stability improvements that help everything feel steadier in everyday use.
+
+### What’s improved in 1.0.2
+
+- **Fixed known issues**: we addressed a set of reported problems so your experience feels more dependable.
+- **Smoother everyday experience**: small refinements that make chatting feel more fluid, responsive, and steady.
+
+Thank you for being here — we’ve been quietly polishing the edges so Chatura feels steadier and more reassuring every time you open it.
+
 ## Version 1.0.1 — Smoother performance, more consistent character
 
 This update focuses on the quiet details that make a companion feel consistent and comforting.
