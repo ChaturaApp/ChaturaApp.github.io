@@ -6,21 +6,27 @@
 
 :root {
   color-scheme: light;
-  --chatura-ink: #1b2320;
-  --chatura-muted: #4c5b56;
-  --chatura-accent: #2f7a6a;
-  --chatura-accent-deep: #1f554b;
-  --chatura-accent-warm: #b57a33;
-  --chatura-accent-rgb: 47, 122, 106;
-  --chatura-accent-deep-rgb: 31, 85, 75;
-  --chatura-accent-warm-rgb: 181, 122, 51;
-  --chatura-surface: #f4f1e8;
-  --chatura-surface-soft: #e7e1d6;
-  --chatura-border: #c5bdae;
-  --chatura-shadow: 0 32px 72px rgba(14, 20, 18, 0.16);
+  --chatura-ink: #13233a;
+  --chatura-muted: #4f6585;
+  --chatura-primary: #1d8dff;
+  --chatura-primary-deep: #0f62da;
+  --chatura-success: #15b87a;
+  --chatura-primary-rgb: 29, 141, 255;
+  --chatura-primary-deep-rgb: 15, 98, 218;
+  --chatura-success-rgb: 21, 184, 122;
+  --chatura-accent: var(--chatura-primary);
+  --chatura-accent-deep: var(--chatura-primary-deep);
+  --chatura-accent-warm: var(--chatura-success);
+  --chatura-accent-rgb: var(--chatura-primary-rgb);
+  --chatura-accent-deep-rgb: var(--chatura-primary-deep-rgb);
+  --chatura-accent-warm-rgb: var(--chatura-success-rgb);
+  --chatura-surface: #f2f8ff;
+  --chatura-surface-soft: #e5f0ff;
+  --chatura-border: #c7daf5;
+  --chatura-shadow: 0 32px 72px rgba(16, 31, 58, 0.16);
   --chatura-glow: 0 18px 44px rgba(var(--chatura-accent-rgb), 0.26);
-  --chatura-section: linear-gradient(145deg, rgba(var(--chatura-accent-rgb), 0.18), rgba(244, 241, 232, 0.98));
-  --chatura-card-shadow: 0 22px 52px rgba(14, 20, 18, 0.12);
+  --chatura-section: linear-gradient(145deg, rgba(var(--chatura-accent-rgb), 0.18), rgba(242, 248, 255, 0.98));
+  --chatura-card-shadow: 0 22px 52px rgba(16, 31, 58, 0.12);
   --chatura-ornament: rgba(var(--chatura-accent-rgb), 0.22);
   --chatura-ornament-warm: rgba(var(--chatura-accent-warm-rgb), 0.18);
   --chatura-section-gap: 7.6rem;
@@ -34,7 +40,7 @@ body {
   margin: 0;
   font-family: "Manrope", "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--chatura-ink);
-  background: radial-gradient(circle at 16% -12%, #dbe7e1 0%, #f3efe7 44%, #ffffff 100%);
+  background: radial-gradient(circle at 16% -12%, #dbeaff 0%, #f0f7ff 44%, #ffffff 100%);
   line-height: 1.7;
   min-height: 100vh;
   position: relative;
@@ -129,7 +135,7 @@ body::after {
   border-radius: 12px;
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.2);
   background: transparent;
-  box-shadow: 0 12px 24px rgba(18, 22, 20, 0.1);
+  box-shadow: 0 12px 24px rgba(16, 31, 58, 0.1);
   cursor: pointer;
 }
 
@@ -194,7 +200,7 @@ body::after {
 .post-content .content-section--links {
   padding: 3.6rem 3.2rem 3.8rem;
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.28);
-  box-shadow: 0 30px 70px rgba(18, 22, 20, 0.14);
+  box-shadow: 0 30px 70px rgba(16, 31, 58, 0.14);
 }
 
 .post-content .content-section--links::before {
@@ -220,7 +226,7 @@ body::after {
   border-radius: 20px;
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.2);
   padding: 1.6rem 1.7rem;
-  box-shadow: 0 18px 36px rgba(18, 22, 20, 0.1);
+  box-shadow: 0 18px 36px rgba(16, 31, 58, 0.1);
   backdrop-filter: blur(10px);
 }
 
@@ -336,7 +342,7 @@ body::after {
   background: var(--chatura-section);
   border-radius: 30px;
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.2);
-  box-shadow: 0 22px 45px rgba(18, 22, 20, 0.08);
+  box-shadow: 0 22px 45px rgba(16, 31, 58, 0.08);
   position: relative;
   overflow: hidden;
 }
@@ -706,7 +712,7 @@ h3 {
     rgba(255, 255, 255, 0.94) 100%
   );
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.25);
-  box-shadow: 0 24px 60px rgba(18, 22, 20, 0.1);
+  box-shadow: 0 24px 60px rgba(16, 31, 58, 0.1);
   animation: panel-fade-in 0.9s ease-out 0.15s both;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
@@ -744,7 +750,7 @@ h3 {
 
 .download-panel:hover {
   transform: translateY(-3px);
-  box-shadow: 0 28px 70px rgba(18, 22, 20, 0.14);
+  box-shadow: 0 28px 70px rgba(16, 31, 58, 0.14);
 }
 
 .download-panel__art {
@@ -753,7 +759,7 @@ h3 {
   border-radius: 18px;
   background:
     url("/assets/Logo.png") center/70% no-repeat,
-    linear-gradient(135deg, #ffffff 0%, #f2eee4 100%);
+    linear-gradient(135deg, #ffffff 0%, #edf5ff 100%);
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.25);
   box-shadow: 0 18px 35px rgba(var(--chatura-accent-deep-rgb), 0.24);
   flex-shrink: 0;
@@ -853,7 +859,7 @@ h3 {
   flex: 1;
   min-height: 480px;
   padding: 1.4rem 1.6rem;
-  background: linear-gradient(120deg, rgba(var(--chatura-accent-rgb), 0.14), rgba(247, 245, 239, 0.94));
+  background: linear-gradient(120deg, rgba(var(--chatura-accent-rgb), 0.14), rgba(242, 248, 255, 0.94));
   display: flex;
   align-items: center;
 }
@@ -885,7 +891,7 @@ h3 {
   border-radius: 20px;
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.2);
   background: #ffffff;
-  box-shadow: 0 22px 48px rgba(18, 22, 20, 0.2);
+  box-shadow: 0 22px 48px rgba(16, 31, 58, 0.2);
   flex-shrink: 0;
   scroll-snap-align: start;
 }
@@ -978,7 +984,7 @@ h3 {
 
 .feature-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 24px 55px rgba(18, 22, 20, 0.14);
+  box-shadow: 0 24px 55px rgba(16, 31, 58, 0.14);
 }
 
 .feature-card > * {
@@ -1080,7 +1086,7 @@ h3 {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(var(--chatura-accent-rgb), 0.18);
-  box-shadow: 0 16px 35px rgba(18, 22, 20, 0.08);
+  box-shadow: 0 16px 35px rgba(16, 31, 58, 0.08);
 }
 
 .faq-item p {
@@ -1190,7 +1196,7 @@ h3 {
 
   .site-header {
     padding-top: 2rem;
-    background: linear-gradient(180deg, rgba(244, 241, 232, 0.96), rgba(244, 241, 232, 0.78));
+    background: linear-gradient(180deg, rgba(242, 248, 255, 0.96), rgba(242, 248, 255, 0.78));
     backdrop-filter: blur(10px);
   }
 
@@ -1217,7 +1223,7 @@ h3 {
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.92);
     border: 1px solid rgba(var(--chatura-accent-rgb), 0.2);
-    box-shadow: 0 18px 40px rgba(18, 22, 20, 0.12);
+    box-shadow: 0 18px 40px rgba(16, 31, 58, 0.12);
     backdrop-filter: blur(12px);
     max-height: 70vh;
     overflow-y: auto;
