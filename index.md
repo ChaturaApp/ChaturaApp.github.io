@@ -24,7 +24,6 @@ Chatura is a character-led AI companion where gentle daily chats feel continuous
       <img src="/assets/AppStoreScreenshot/Screenshot5.png" alt="Chatura app screenshot">
       <img src="/assets/AppStoreScreenshot/Screenshot6.png" alt="Chatura app screenshot">
       <img src="/assets/AppStoreScreenshot/Screenshot7.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot8.png" alt="Chatura app screenshot">
     </div>
   </div>
 </div>
