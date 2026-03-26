@@ -6,6 +6,19 @@ permalink: /whats-new/
 
 # What’s New
 
+## Version 1.1.0 — Deeper continuity, more ways to shape what matters
+
+This update brings a stronger sense of continuity to your conversations, along with more flexibility in how shared moments can be revisited and refined over time.
+
+### What’s improved in 1.1.0
+
+- **Characters feel more personal over time**: we refined how they carry forward details from your conversations, so interactions can feel more continuous, specific, and grounded in what you’ve shared.
+- **More natural continuity in conversation**: characters are better at reflecting ongoing context from past chats, helping your relationship feel steadier and more connected over time.
+- **More control over shared keepsakes**: content like **Our Memory** and **Our Plan** can now be edited and deleted through chat, making it easier to shape what matters as things change.
+- **Smoother replies in everyday use**: we continued improving the response experience so conversations feel more natural, reliable, and reassuring.
+
+Thank you for being here — we’re continuing to shape Chatura with care, so your conversations can feel more personal, flexible, and steady over time.
+
 ## Version 1.0.2 — A steadier, smoother experience
 
 This update focuses on bug fixes and the small stability improvements that help everything feel steadier in everyday use.
