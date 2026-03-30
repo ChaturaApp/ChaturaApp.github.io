@@ -65,10 +65,23 @@ permalink: /
       return firstImage.getBoundingClientRect().width + gap;
     };
 
+    var syncControl = function (control, isDisabled) {
+      if (!isDisabled) {
+        control.dataset.hasAppeared = "true";
+      }
+
+      var shouldHide = isDisabled && control.dataset.hasAppeared !== "true";
+      control.disabled = isDisabled;
+      control.classList.toggle("is-hidden", shouldHide);
+      return shouldHide;
+    };
+
     var syncControls = function () {
       var maxScroll = Math.max(track.scrollWidth - track.clientWidth - 2, 0);
-      previous.disabled = track.scrollLeft <= 2;
-      next.disabled = track.scrollLeft >= maxScroll;
+      var previousHidden = syncControl(previous, track.scrollLeft <= 2);
+      var nextHidden = syncControl(next, track.scrollLeft >= maxScroll);
+      carousel.classList.toggle("is-at-start", previousHidden);
+      carousel.classList.toggle("is-at-end", nextHidden);
     };
 
     previous.addEventListener("click", function () {
