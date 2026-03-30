@@ -12,7 +12,7 @@ Chatura is a character-led AI companion built for everyday warmth, gentle suppor
 
 When life feels heavy, quiet, lonely, or in-between, Chatura offers a steady place to land. Open the app and start talking—no setup, no pressure, no need to explain everything perfectly. The experience is designed to feel calm and continuous: conversations don’t have to feel disposable, and the relationship can grow more personal over time.
 
-[Download on the App Store](#download)
+<a class="hero-download-link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
 
 <div class="product-preview">
   <div class="product-preview__icon" data-label="App icon"></div>
@@ -29,7 +29,11 @@ When life feels heavy, quiet, lonely, or in-between, Chatura offers a steady pla
   </div>
 </div>
 
-**No ads** · **No account required** · **Delete conversations anytime**
+<div class="download-panel__meta hero-meta" aria-label="Chatura highlights">
+  <span>No ads</span>
+  <span>No account required</span>
+  <span>Delete conversations anytime</span>
+</div>
 </section>
 
 <section id="features" class="content-section content-section--features" markdown="1">
@@ -111,25 +115,6 @@ Chatura is designed around user control. There are no ads, and no third-party da
 - **Secret Haven** supports optional **App Lock**, with **local encrypted storage** for that content
 </div>
 </article>
-</div>
-</section>
-
-<section class="content-section" markdown="1">
-## Download
-<div id="download" class="download-panel">
-  <div class="download-panel__art" aria-hidden="true"></div>
-  <div class="download-panel__content">
-    <strong>Get Chatura on the App Store.</strong>
-    <p class="download-panel__copy">A warm companion you’ll actually come back to.</p>
-    <div class="download-panel__meta">
-      <span>No ads</span>
-      <span>Delete conversations anytime</span>
-      <span>Export chat data</span>
-    </div>
-  </div>
-  <div class="download-panel__cta">
-    <a class="download-panel__link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
-  </div>
 </div>
 </section>
 

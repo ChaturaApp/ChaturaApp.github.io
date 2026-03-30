@@ -456,7 +456,7 @@ a:focus-visible {
   box-shadow: 0 0 0 4px rgba(var(--chatura-accent-rgb), 0.2);
 }
 
-.content-section a[href="#download"] {
+.hero-download-link {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -470,11 +470,15 @@ a:focus-visible {
   animation: cta-fade-in 0.7s ease-out both;
 }
 
-.content-section a[href="#download"]:hover,
-.content-section a[href="#download"]:focus-visible {
+.hero-download-link:hover,
+.hero-download-link:focus-visible {
   color: #ffffff;
   transform: translateY(-1px);
   box-shadow: 0 22px 36px rgba(var(--chatura-accent-deep-rgb), 0.32);
+}
+
+.hero-meta {
+  margin-top: 0;
 }
 
 strong {
@@ -1277,7 +1281,7 @@ h3 {
     padding: 2rem 1.5rem 2.5rem;
   }
 
-  .content-section a[href="#download"] {
+  .hero-download-link {
     width: 100%;
     justify-content: center;
     box-sizing: border-box;
