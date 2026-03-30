@@ -15,7 +15,6 @@ When life feels heavy, quiet, lonely, or in-between, Chatura offers a steady pla
 <a class="hero-download-link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
 
 <div class="product-preview">
-  <div class="product-preview__icon" data-label="App icon"></div>
   <div class="product-preview__shot">
     <div class="product-preview__shot-track" aria-label="Chatura app screenshots">
       <img src="/assets/AppStoreScreenshot/Screenshot1.png" alt="Chatura app screenshot">
@@ -61,7 +60,7 @@ Whether it’s a morning reset, a quiet moment between meetings, or late-night t
 Some chats matter because of how they made you feel. Others matter because they helped you hold onto something important.
 </div>
 <div class="feature-card__body" markdown="1">
-### Keepsakes you can come back to
+**Keepsakes you can come back to:**
 - **Our Memory** — moments worth keeping
 - **Our Plan** — a clear next step you can revisit
 - **Time Capsule** — a message for your future self
@@ -80,7 +79,7 @@ Chatura is built around characters with their own tone, values, and perspective.
 </div>
 <div class="feature-card__body" markdown="1">
 **What makes it feel grounded:**
-- **6 characters total** (**1 core character included; 5 more unlocked with subscription**)
+- **6 characters total** *(1 core character included; 5 more unlocked with subscription)*
 - Each character is anchored by **Info / Status / Interests**
 - Characters can remember details you have shared and reflect them back over time
 - Continuity comes from identity + shared touchpoints—not exaggerated “perfect memory” claims
@@ -110,6 +109,7 @@ Chatura is designed around user control. There are no ads, and no third-party da
 <div class="feature-card__body" markdown="1">
 **Privacy & control:**
 - **No ads**
+- **No account required**
 - **Delete conversations** anytime
 - **Export chat data** across characters
 - **Secret Haven** supports optional **App Lock**, with **local encrypted storage** for that content
