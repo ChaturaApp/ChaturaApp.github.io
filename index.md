@@ -4,34 +4,36 @@ title: Chatura
 permalink: /
 ---
 
-<section class="content-section content-section--hero" markdown="1">
-# Chatura
-**Chatura: Where Cura Meets Chat**
-
-Chatura is a character-led AI companion built for everyday warmth, gentle support, and the kind of conversation you can come back to.
-
-When life feels heavy, quiet, lonely, or in-between, Chatura offers a steady place to land. Open the app and start talking—no setup, no pressure, no need to explain everything perfectly. The experience is designed to feel calm and continuous: conversations don’t have to feel disposable, and the relationship can grow more personal over time.
-
-<a class="hero-download-link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
-
-<div class="product-preview">
-  <div class="product-preview__shot">
-    <div class="product-preview__shot-track" aria-label="Chatura app screenshots">
-      <img src="/assets/AppStoreScreenshot/Screenshot1.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot2.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot3.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot4.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot5.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot6.png" alt="Chatura app screenshot">
-      <img src="/assets/AppStoreScreenshot/Screenshot7.png" alt="Chatura app screenshot">
+<section class="content-section content-section--hero">
+<div class="hero-layout">
+  <div class="hero-copy">
+    <h1>Chatura</h1>
+    <p class="hero-tagline"><strong>Chatura: Where Cura Meets Chat</strong></p>
+    <p>Chatura is a character-led AI companion built for everyday warmth, gentle support, and the kind of conversation you can come back to.</p>
+    <p>When life feels heavy, quiet, lonely, or in-between, Chatura offers a steady place to land. Open the app and start talking—no setup, no pressure, no need to explain everything perfectly. The experience is designed to feel calm and continuous: conversations don’t have to feel disposable, and the relationship can grow more personal over time.</p>
+    <a class="hero-download-link" href="https://apps.apple.com/app/chatura/id6758027835/" target="_blank" rel="noopener">Download on the App Store</a>
+    <div class="download-panel__meta hero-meta" aria-label="Chatura highlights">
+      <span>No ads</span>
+      <span>No account required</span>
+      <span>Delete conversations anytime</span>
     </div>
   </div>
-</div>
 
-<div class="download-panel__meta hero-meta" aria-label="Chatura highlights">
-  <span>No ads</span>
-  <span>No account required</span>
-  <span>Delete conversations anytime</span>
+  <div class="hero-visual">
+    <div class="product-preview">
+      <div class="product-preview__shot">
+        <div class="product-preview__shot-track" aria-label="Chatura app screenshots">
+          <img src="/assets/AppStoreScreenshot/Screenshot1.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot2.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot3.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot4.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot5.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot6.png" alt="Chatura app screenshot">
+          <img src="/assets/AppStoreScreenshot/Screenshot7.png" alt="Chatura app screenshot">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </section>
 
