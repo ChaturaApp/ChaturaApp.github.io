@@ -20,9 +20,14 @@ permalink: /
   </div>
 
   <div class="hero-visual">
-    <div class="product-preview">
+    <div class="product-preview" data-carousel>
+      <button class="product-preview__control product-preview__control--prev" type="button" aria-label="Show previous screenshot" aria-controls="hero-screenshot-track" disabled>
+        <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <path d="M12.75 4.75 7.5 10l5.25 5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+        </svg>
+      </button>
       <div class="product-preview__shot">
-        <div class="product-preview__shot-track" aria-label="Chatura app screenshots">
+        <div class="product-preview__shot-track" id="hero-screenshot-track" aria-label="Chatura app screenshots" tabindex="0">
           <img src="/assets/AppStoreScreenshot/Screenshot1.png" alt="Chatura app screenshot">
           <img src="/assets/AppStoreScreenshot/Screenshot2.png" alt="Chatura app screenshot">
           <img src="/assets/AppStoreScreenshot/Screenshot3.png" alt="Chatura app screenshot">
@@ -32,10 +37,53 @@ permalink: /
           <img src="/assets/AppStoreScreenshot/Screenshot7.png" alt="Chatura app screenshot">
         </div>
       </div>
+      <button class="product-preview__control product-preview__control--next" type="button" aria-label="Show next screenshot" aria-controls="hero-screenshot-track">
+        <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <path d="M7.25 4.75 12.5 10l-5.25 5.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+        </svg>
+      </button>
     </div>
   </div>
 </div>
 </section>
+
+<script>
+  (function () {
+    var carousel = document.querySelector("[data-carousel]");
+    if (!carousel) return;
+
+    var track = carousel.querySelector(".product-preview__shot-track");
+    var previous = carousel.querySelector(".product-preview__control--prev");
+    var next = carousel.querySelector(".product-preview__control--next");
+    if (!track || !previous || !next) return;
+
+    var getStep = function () {
+      var firstImage = track.querySelector("img");
+      var styles = window.getComputedStyle(track);
+      var gap = parseFloat(styles.columnGap || styles.gap || "0");
+      if (!firstImage) return track.clientWidth * 0.82;
+      return firstImage.getBoundingClientRect().width + gap;
+    };
+
+    var syncControls = function () {
+      var maxScroll = Math.max(track.scrollWidth - track.clientWidth - 2, 0);
+      previous.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft >= maxScroll;
+    };
+
+    previous.addEventListener("click", function () {
+      track.scrollBy({ left: -getStep(), behavior: "smooth" });
+    });
+
+    next.addEventListener("click", function () {
+      track.scrollBy({ left: getStep(), behavior: "smooth" });
+    });
+
+    track.addEventListener("scroll", syncControls, { passive: true });
+    window.addEventListener("resize", syncControls);
+    syncControls();
+  })();
+</script>
 
 <section id="features" class="content-section content-section--features" markdown="1">
 ## Features
