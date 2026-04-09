@@ -185,33 +185,28 @@ Chatura is designed around user control. There are no ads, and no third-party da
 ## FAQ
 <div class="faq-grid" markdown="1">
   <div class="faq-item" markdown="1">
+  **How is Chatura different from a typical AI chat app?**
+  Chatura is built around distinct characters, ongoing continuity, and shared keepsakes. Instead of feeling like disposable chat, conversations can grow more personal over time and turn into memories, plans, wishes, and more.
+  </div>
+
+  <div class="faq-item" markdown="1">
+  **What can I keep from my conversations?**
+  Meaningful moments can become revisitable keepsakes like Our Memory, Our Plan, Time Capsule, Wish Voice, and Secret Haven—all created and managed naturally through chat.
+  </div>
+
+  <div class="faq-item" markdown="1">
+  **How do the characters feel more personal over time?**
+  Each character has their own tone, identity, and perspective. As you keep chatting, they can remember details you’ve shared and carry that continuity into later conversations.
+  </div>
+
+  <div class="faq-item" markdown="1">
   **Can I start using Chatura for free?**
   Yes. You can start with Chatura’s core character for free. Optional subscription features are available in the app.
   </div>
 
   <div class="faq-item" markdown="1">
-  **Do you show ads or share data for advertising?**
-  No. Chatura does not show ads or share data with third parties for advertising or analytics.
-  </div>
-
-  <div class="faq-item" markdown="1">
-  **Can I control my data?**
-  Yes. You can delete conversations anytime and export your chat data.
-  </div>
-
-  <div class="faq-item" markdown="1">
-  **Are the characters real people?**
-  No. Chatura features AI-generated characters. They’re not real people and may make mistakes.
-  </div>
-
-  <div class="faq-item" markdown="1">
-  **Is Chatura therapy?**
-  No. Chatura is for supportive conversation and reflection. It does not provide medical advice, diagnosis, or treatment, and it is not a substitute for professional care.
-  </div>
-
-  <div class="faq-item" markdown="1">
-  **Is Chatura for emergencies or crisis situations?**
-  No. Chatura is not for emergencies. If you’re in immediate danger or considering self-harm, call 911 (US) or your local emergency number. In the US, you can also call or text 988.
+  **Is Chatura private and easy to start using?**
+  Yes. You can start without creating an account. Chatura has no ads, does not share your data for advertising or analytics, and lets you delete conversations or export your chat data whenever you want.
   </div>
 </div>
 </section>
