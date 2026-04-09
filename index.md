@@ -15,7 +15,7 @@ permalink: /
     <div class="download-panel__meta hero-meta" aria-label="Chatura highlights">
       <span>No ads</span>
       <span>No account required</span>
-      <span>Delete conversations anytime</span>
+      <span>Private by design</span>
     </div>
   </div>
 
