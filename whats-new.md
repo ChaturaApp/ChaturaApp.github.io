@@ -6,6 +6,16 @@ permalink: /whats-new/
 
 # What’s New
 
+## Version 1.1.1 — More languages, a more accessible Chatura
+
+This update expands language support so more people can experience Chatura in the way that feels most natural to them.
+
+### What’s improved in 1.1.1
+
+- **More language support**: Chatura now supports French, Japanese, Korean, German, Italian, and Norwegian Bokmål in addition to English, making it easier to feel at home in the app.
+
+Thank you for being here — we’re continuing to make Chatura more welcoming and accessible, so it can feel easier to return to in everyday life.
+
 ## Version 1.1.0 — Deeper continuity, more ways to shape what matters
 
 This update brings a stronger sense of continuity to your conversations, along with more flexibility in how shared moments can be revisited and refined over time.
